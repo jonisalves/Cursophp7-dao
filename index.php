@@ -37,12 +37,23 @@ $aluno->insert();
 
 echo $aluno;
 */
-
+//metodo update
+/*
 $usuario = new Usuario();
 
 $usuario->loadbyId(6);
 
 $usuario->update("aluno 1", "122345");
+
+echo $usuario;
+*/
+//metodo delete
+
+$usuario = new Usuario();
+
+$usuario->loadbyId(5);
+
+$usuario->delete();
 
 echo $usuario;
 ?>
