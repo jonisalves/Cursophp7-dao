@@ -48,7 +48,7 @@ $usuario->update("aluno 1", "122345");
 echo $usuario;
 */
 //metodo delete
-
+/*
 $usuario = new Usuario();
 
 $usuario->loadbyId(5);
@@ -56,4 +56,6 @@ $usuario->loadbyId(5);
 $usuario->delete();
 
 echo $usuario;
+
+*/
 ?>
